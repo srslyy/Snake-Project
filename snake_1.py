@@ -1,10 +1,6 @@
 import pygame
-import time
 pygame.init()
-
-screen = pygame.display.set_mode((1000, 750))
-
-time.sleep(5)
-
+screen = pygame.display.set_mode((1300, 650))
 pygame.quit()
 quit()
+
