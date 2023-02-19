@@ -16,7 +16,7 @@ green = (188, 227, 199)
 yellow = (255, 255, 0)
 
 # Fonts for the game
-score_font = pygame.font.Font("snake chan.ttf", 20)
+score_font = pygame.font.SysFont("arialblack", 20)
 exit_font = pygame.font.Font("freesansbold.ttf", 30)
 msg_font = pygame.font.SysFont("arialblack", 20)
 
@@ -144,6 +144,12 @@ def game_loop():
         score = snake_length - 1  # score exclude snake's head
         player_score(score, black)
 
+        # Link speed of snake to player score to increase difficulty
+        if score > 3:
+            speed = score
+        else:
+            speed = 3
+
         # Create circle for food
         food = pygame.Rect(food_x, food_y, 20, 20)
         apple = pygame.image.load('apple_3.png').convert_alpha()
@@ -170,7 +176,7 @@ def game_loop():
             # Increase length of snake (by original size)
             snake_length += 1
 
-        clock.tick(5)  # sets the speed at which each iteration of the game loop
+        clock.tick(speed)  # sets the speed at which each iteration of the game loop
         # runs in frames per second(fps). In this case it is set to 5fps
 
     pygame.quit()
