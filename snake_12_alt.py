@@ -46,6 +46,7 @@ def message(msg, txt_colour, bkgd_colour):
 
 # Function to run the main game loop
 def game_loop():
+    start_time = time.time()  # To record score (time from start of game)
     quit_game = False
     game_over = False
 
@@ -141,7 +142,7 @@ def game_loop():
         draw_snake(snake_list)
 
         # Keeping track of the player's score
-        score = snake_length - 1  # score exclude snake's head
+        score = round(time.time() - start_time)
         player_score(score, black)
 
         # Link speed of snake to player score to increase difficulty
