@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bee6204-2ca0-40ec-9633-b6cdf7f2c00f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/snake_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snake_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HI_score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HI_score.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/sarah/OneDrive - Middleton Grange School/Year 13/13DTC/AS 3.7 Programming/Exercises/Snake Project&quot;,
@@ -46,7 +49,7 @@
       <recent name="C:\Users\sarah\OneDrive - Middleton Grange School\Year 13\13DTC\AS 3.7 Programming\Exercises\Snake Project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.snake_13">
+  <component name="RunManager" selected="Python.snake_14">
     <configuration name="snake_12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Snake Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="snake_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="snake_14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Snake Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,7 +125,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/snake_7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/snake_14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.snake_14" />
         <item itemvalue="Python.snake_13" />
         <item itemvalue="Python.snake_12" />
         <item itemvalue="Python.snake_12_alt" />
         <item itemvalue="Python.snake_8" />
-        <item itemvalue="Python.snake_7" />
       </list>
     </recent_temporary>
   </component>
